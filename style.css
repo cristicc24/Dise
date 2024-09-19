@@ -1,13 +1,9 @@
-body
-{
-    background-color: rgb(153, 136, 113);
-}
 
 header
 {
     display: flex;
     height: 50%;
-    background-color: rgb(224, 221, 188);
+    background: linear-gradient(to right, rgb(243, 238, 243), rgb(107, 105, 105)) ;
     align-items: center;
     justify-content: space-between;
 }
@@ -15,7 +11,8 @@ header
 header p
 { 
     display: flex;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
     padding-right: 1vh;   
 }
 
@@ -30,24 +27,27 @@ main
     display: flex;
     height: 400px;
     width: 100%;
-
     align-items: center;
     flex-direction: row;
+}
 
-    
+main h3
+{
+    font-style: italic;
 }
 
 main #calidos
 {
     display: flex;
     height: 400px;
-    background-color: rgb(252, 216, 216);
+    background:  linear-gradient(rgb(250, 246, 209),rgb(202, 47, 47));
     flex-direction: column;
     align-items: center;
     justify-items: center;
     padding-left: 2vh;
     padding-right: 2vh;
     width: 50%;
+    font-size: large;
 }
 
 #rojo
@@ -75,12 +75,15 @@ main #frios
     display: flex;
     height: 400px;
     flex-direction: column;
-    background-color: rgb(205, 205, 255);
+    background:  linear-gradient(rgb(168, 240, 180),rgb(108, 62, 134));
     align-items: center;
     padding-left: 2vh;
     padding-right: 2vh;
     width: 50%;
+    font-size: large;
 }
+
+
 
 #verde
 {
@@ -89,7 +92,7 @@ main #frios
 
 #azul_claro
 {
-    color: rgb(165, 250, 250);
+    color: rgb(179, 235, 235);
 }
 
 #azul_oscuro
