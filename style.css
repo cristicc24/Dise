@@ -1,0 +1,25 @@
+body
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(153, 136, 113);
+}
+
+
+header
+{
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 1900px;
+    background-color: rgb(224, 221, 188);
+}
+
+nav
+{
+    display: flex;
+    height: 50px;
+    
+    background-color: beige;
+}
+
