@@ -1,3 +1,8 @@
+body
+{
+    margin: 0px;
+}
+
 
 header
 {
@@ -5,8 +10,7 @@ header
     height: 50%;
     background: linear-gradient(to right, rgb(243, 238, 243), rgb(107, 105, 105)) ;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
 header p
