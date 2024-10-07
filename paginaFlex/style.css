@@ -1,0 +1,151 @@
+*
+{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+    .header
+    {
+        background: url(fotos/fotografia.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        align-items: center;
+    }
+
+        .header span
+        {
+            color: white;
+        }
+
+        .menu
+        {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            background-color: rgba(0,0,0,.1);
+        }
+
+            
+            .menu a
+            {
+                color: white;
+            }
+
+            .menu a:hover
+            {
+                color: blue;
+            }
+
+            .logo
+            {
+               flex: 1 1 auto;
+            }
+
+                .logo a
+                {
+                    font-size: 20px;
+                }
+
+
+            .nav
+            {
+                display: flex;
+                flex: 5 1 auto;
+            }
+
+                .nav a
+                {
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+
+               
+
+            .redes
+            {
+               flex: 1 1 auto;
+            }
+
+                .redes a
+                {
+                    font-size: 15px;
+                    padding: 0 5px;
+                }
+
+                .redes a:hover
+                {
+                    color: blue;
+                }
+
+                .texto
+                {
+                    background-color: burlywood;
+                }
+
+    .section
+    {
+        background-color: black;
+        display: flex;
+    }
+        .articulos
+        {
+            background-color: navajowhite;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+            .article
+            {
+                background-color: coral;
+                flex: 1 1 40%;
+            }
+
+            .barraNav
+            {
+                background-color: rgb(133, 133, 44);
+                flex: 1 1 100%;
+            }
+
+        
+        .aside
+        {
+            background-color: brown;
+            flex: 1 1 auto;
+        }
+
+            .publicidad
+            {
+                background-color: cornsilk;
+            }
+
+    .footer
+    {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+        .piePagina
+        {
+            background-color: aqua;
+            width: 300px;
+        }
