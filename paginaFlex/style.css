@@ -1,6 +1,6 @@
 *
 {
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -11,6 +11,11 @@
     flex-flow: column nowrap;
 }
 
+body
+{
+    font-family: Inter;
+}
+
 a
 {
     text-decoration: none;
@@ -19,14 +24,14 @@ a
 
     .header
     {
-        background: url(fotos/fotografia.jpg);
-        background-position: center;
-        background-attachment: contain;
+        background: url(fotos/fotografia_grande.jpg);
+        background-position: 0px -150px;
         background-size: cover;
+        background-attachment: contain;
+        background-repeat: no-repeat;
         display: flex;
-        flex-flow: row nowrap;
-        height: 100px;
-        align-items: center;
+        flex-flow: column nowrap;
+        border-bottom: 1px solid white;
     }
 
         .header span
@@ -38,68 +43,73 @@ a
         {
             display: flex;
             flex-flow: row nowrap;
+            height: 70px;
             align-items: center;
-            background-color: rgba(0,0,0,.1);
         }
-
-            
-            .menu a
-            {
-                color: white;
-            }
-
-            .menu a:hover
-            {
-                color: blue;
-            }
-
             .logo
             {
-               flex: 1 1 auto;
+                flex: 1 1 auto;
             }
-
-                .logo a
+                .logo img
                 {
-                    font-size: 20px;
+                    width: 200px;
                 }
-
-
             .nav
             {
                 display: flex;
                 flex: 5 1 auto;
+                justify-content: center;
             }
-
                 .nav a
                 {
-                    font-size: 15px;
+                    color: white;
                     text-transform: uppercase;
-                    padding: 0 10px;
+                    font-size: 12px;
+                    padding: 0 5px;
                     letter-spacing: 2px;
                 }
-
-               
+                .nav a:hover
+                {
+                    color: gold;
+                    font-weight: bold;
+                }
 
             .redes
             {
-               flex: 1 1 auto;
+                display: flex;
+                flex: 1 1 auto;
             }
-
                 .redes a
                 {
-                    font-size: 15px;
-                    padding: 0 5px;
+                    color: black;
                 }
-
                 .redes a:hover
                 {
-                    color: blue;
+                    color: gold;
                 }
 
-                .texto
-                {
-                    background-color: burlywood;
-                }
+            
+        .texto
+        {
+            display: flex;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+
+            h1
+            {
+                width: fit-content;
+                background-color: rgba(240, 248, 255, 0.3);
+                margin-bottom: 4px;
+                border-radius: 4px;
+            }
+            .texto p
+            {
+                text-align: center;
+                background-color: rgba(240, 248, 255, 0.3);
+                border-radius: 4px;
+            }
+
 
     .section
     {
@@ -119,10 +129,14 @@ a
                 background-color: coral;
                 flex: 1 1 40%;
             }
+                .article img
+                {
+                    width: 100%;
+                }
 
             .barraNav
             {
-                background-color: rgb(133, 133, 44);
+                
                 flex: 1 1 100%;
             }
 
@@ -132,10 +146,13 @@ a
             background-color: brown;
             flex: 1 1 auto;
         }
-
             .publicidad
             {
-                background-color: cornsilk;
+                background-color: rgb(114, 106, 73);
+            }
+            .publicidad img
+            {
+                width: 100%;
             }
 
     .footer
@@ -146,6 +163,7 @@ a
     }
         .piePagina
         {
-            background-color: aqua;
             width: 300px;
+            background-color: aqua;
         }
+
