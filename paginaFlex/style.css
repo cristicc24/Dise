@@ -1,7 +1,7 @@
 *
 {
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -44,11 +44,15 @@ a
             display: flex;
             flex-flow: row nowrap;
             height: 70px;
+            margin-top: 30px;
             align-items: center;
+            
         }
             .logo
             {
                 flex: 1 1 auto;
+                padding-left: 20px;
+                
             }
                 .logo img
                 {
@@ -65,12 +69,12 @@ a
                     color: white;
                     text-transform: uppercase;
                     font-size: 12px;
-                    padding: 0 5px;
+                    padding: 0px 10px;
                     letter-spacing: 2px;
                 }
                 .nav a:hover
                 {
-                    color: gold;
+                    color: rgb(252, 224, 67);
                     font-weight: bold;
                 }
 
@@ -81,11 +85,12 @@ a
             }
                 .redes a
                 {
+                    padding: 5px 15px;
                     color: black;
                 }
                 .redes a:hover
                 {
-                    color: gold;
+                    color: rgb(204, 178, 33);
                 }
 
             
@@ -94,6 +99,7 @@ a
             display: flex;
             align-items: center;
             flex-flow: column wrap;
+            margin-top: 60px;
         }
 
             h1
@@ -113,8 +119,10 @@ a
 
     .section
     {
-        background-color: black;
+        background-color: rgb(85, 48, 48);
         display: flex;
+        margin: 0px 50px;
+        
     }
         .articulos
         {
@@ -126,29 +134,77 @@ a
 
             .article
             {
-                background-color: coral;
-                flex: 1 1 40%;
+                flex: 1 1 45%;
+                font-size: 13px;
+                letter-spacing: 1px;
+                margin: 10px 10px 0 0px;
             }
                 .article img
                 {
                     width: 100%;
                 }
+                .article h3
+                {
+                    padding: 10px 5px;
+                    margin-top: -70px;
+                    color: white;
+
+                }
+                .article h2
+                {
+                    padding: 10px 5px;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                }
+                .article p
+                {
+                    padding: 5px 5px;
+                }
+                .article a
+                {
+                    padding: 10px;
+                    margin: 5px 5px;
+                    color: white;
+                    display: inline-flex;
+                    background-color: black;
+                }
+                .article a:hover
+                {
+                    background-color: rgb(204, 178, 33);
+                    color: black;
+                }
+
 
             .barraNav
             {
-                
                 flex: 1 1 100%;
+                padding: 10px;
+                font-size: 15px;
             }
+                .barraNav a
+                {
+                    color: black;
+                    letter-spacing: 2px;
+                }
+                .barraNav a:hover
+                {
+                    color: rgb(204, 178, 33);
+                }
 
         
         .aside
         {
-            background-color: brown;
             flex: 1 1 auto;
+            margin: 10px 5px 10px 0px;
         }
+            .aside h4
+            {
+                padding: 10px;
+                text-transform: uppercase;
+            }
             .publicidad
             {
-                background-color: rgb(114, 106, 73);
+
             }
             .publicidad img
             {
@@ -159,6 +215,7 @@ a
     {
         background-color: black;
         display: flex;
+        height: 60px;
         justify-content: center;
     }
         .piePagina
