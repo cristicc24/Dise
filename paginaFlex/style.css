@@ -64,6 +64,10 @@ a
                 flex: 5 1 auto;
                 justify-content: center;
             }
+                .nav i 
+                {
+                    padding: 0 10px;
+                }
                 .nav a
                 {
                     color: white;
@@ -99,7 +103,8 @@ a
             display: flex;
             align-items: center;
             flex-flow: column wrap;
-            margin-top: 60px;
+            margin-top: 150px;
+            margin-bottom: 5px;
         }
 
             h1
@@ -119,14 +124,11 @@ a
 
     .section
     {
-        background-color: rgb(85, 48, 48);
         display: flex;
         margin: 0px 50px;
-        
     }
         .articulos
         {
-            background-color: navajowhite;
             flex: 2 1 auto;
             display: flex;
             flex-flow: row wrap;
@@ -146,19 +148,22 @@ a
                 .article h3
                 {
                     padding: 10px 5px;
-                    margin-top: -70px;
+                    margin-top: -60px;
                     color: white;
-
+                    gap: 2px;
                 }
                 .article h2
                 {
-                    padding: 10px 5px;
+                    padding: 0px 5px;
                     text-transform: uppercase;
                     font-size: 15px;
+                    color: white;
+                    gap: 2px;
                 }
                 .article p
                 {
                     padding: 5px 5px;
+                    gap: 2px;
                 }
                 .article a
                 {
@@ -178,7 +183,7 @@ a
             .barraNav
             {
                 flex: 1 1 100%;
-                padding: 10px;
+                padding: 10px 5px;
                 font-size: 15px;
             }
                 .barraNav a
@@ -200,11 +205,15 @@ a
             .aside h4
             {
                 padding: 10px;
+                background-color: black;
                 text-transform: uppercase;
+                color: white;
+                text-align: center;
+
             }
             .publicidad
             {
-
+                margin: 0px 0px 10px 0px;
             }
             .publicidad img
             {
@@ -221,6 +230,14 @@ a
         .piePagina
         {
             width: 300px;
-            background-color: aqua;
+            align-content: center;
         }
+        .piePagina a
+        {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: gold;
+        }
+
 
