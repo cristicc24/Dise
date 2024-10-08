@@ -280,6 +280,11 @@ a
 @media (max-width: 600px)
 {
 
+    .header
+    {
+        height: 75vh;
+    }
+
     .menu .nav a .off
     {
         display: none;
@@ -300,8 +305,6 @@ a
         font-size: 20px;
     }
 
-
-    
     .section
     {
         margin: 0px 20px;
