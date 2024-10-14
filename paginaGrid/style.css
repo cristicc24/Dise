@@ -72,6 +72,7 @@ a
                     font-size: 16px;
                     padding: 0px 10px;
                     letter-spacing: 2px;
+                    text-align: center;
                 }
                 .nav a:hover
                 {
@@ -204,8 +205,9 @@ a
         
         .aside
         {
+            display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: max-content max-content;
             margin: 10px 5px 10px 0px;
         }
             .aside h4
@@ -265,6 +267,19 @@ a
         {
             margin-bottom: 10px;
         }
+
+    .section 
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+    }
+
+        .aside 
+        {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px;
+        }
 }
 
     
@@ -292,6 +307,10 @@ a
     {
         height: 75vh;
     }
+        .menu 
+        {
+            margin-bottom: 50px;
+        }
         .menu .nav a .off
         {
             display: none;
@@ -326,11 +345,3 @@ a
             margin: 15px 0px 0px;
         }
     }
-
-@media (max-width: 450px)
-{
-    .texto h1
-    {
-        margin-top: 60px;
-    }
-}
