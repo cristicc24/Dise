@@ -70,7 +70,7 @@ a
                 }
                 .nav a
                 {
-                    color: white;
+                    color: rgb(250, 250, 250);
                     text-transform: uppercase;
                     font-size: 12px;
                     padding: 0px 10px;
@@ -117,7 +117,7 @@ a
             .texto p
             {
                 text-align: center;
-                background-color: rgba(240, 248, 255, 0.3);
+                background-color: rgba(240, 248, 255, 0.4);
                 border-radius: 4px;
             }
 
