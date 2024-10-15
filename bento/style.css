@@ -1,0 +1,138 @@
+*
+{
+    margin: 0px;
+    padding: 10px;
+}
+
+.padre
+{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: rgb(51, 50, 50);
+    grid-template-areas: 
+    "thunderbolt upto20 upto30 industry industry upto96 upto96"
+    "billion billion m2 m2 m2 cpu gpu"
+    "engine upto40 m2 m2 m2 cpu gpu"
+    "performance performance tech tech tech gb gb"
+    ;
+    gap: 12px;
+}
+
+    .thunderbolt
+    {
+        grid-area: thunderbolt;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    } 
+        
+    
+    
+    .upto20
+    {
+        grid-area: upto20;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    } 
+
+    .upto30
+    {
+        grid-area: upto30;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    } 
+
+    .industry
+    {
+        grid-area: industry;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    } 
+
+    .upto96
+    {
+        grid-area: upto96;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    } 
+
+    .billion
+    {
+        grid-area: billion;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    }
+
+    .m2
+    {
+        grid-area: m2;
+        background-color: rgb(106, 117, 114);
+        border-radius: 6px;
+        gap: 16px;
+    }
+
+        /* .m2 .img
+        {
+            display: flex;
+        } */
+
+    .cpu
+    {
+        grid-area: cpu;
+        background-color: rgb(106, 117, 114);
+        
+        border-radius: 6px;
+    }
+
+    .gpu
+    {
+        grid-area: gpu;
+        background-color: rgb(106, 117, 114);
+        border-radius: 6px;
+    }
+
+    .engine
+    {
+        grid-area: engine;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    }
+
+    .faster
+    {
+        grid-area: upto40;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    }
+
+    .performance
+    {
+        grid-area: performance;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    }
+       
+    .tech
+    {
+        grid-area: tech;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    }
+
+    .memory
+    {
+        grid-area: gb;
+        background-color: rgb(106, 117, 114);
+        height: 100px;
+        border-radius: 6px;
+    }
