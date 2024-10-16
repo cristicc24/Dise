@@ -53,6 +53,15 @@
         flex-direction: column;
         padding: 10px;
     } 
+<<<<<<< HEAD
+        .upto20 h1
+        {
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+=======
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
        
 
     .upto30
@@ -67,6 +76,12 @@
         flex-direction: column;
         padding: 10px;
     } 
+        .upto30 h1
+        {
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
     .industry
     {
@@ -101,6 +116,12 @@
         flex-direction: column;
         padding: 10px;
     } 
+        .upto96 h1
+        {
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
     .billion
     {
@@ -113,9 +134,17 @@
         align-items: center;
         flex-direction: column;
     }
+<<<<<<< HEAD
+        .billion > div
+        {
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+=======
         .billion h3
         {
             font-size: 15px;
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
         }
 
     .m2
@@ -166,9 +195,17 @@
         .cpuCore
         {
             margin-bottom: 20px;
+<<<<<<< HEAD
+            font-size: 30px;
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+=======
             font-size: 20px;
         }
 
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
 
     .gpu
     {
@@ -199,7 +236,14 @@
         }
         .gpu .gpuDiv .gpuCore
         {
+<<<<<<< HEAD
+            font-size: 30px;
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+=======
             font-size: 20px;
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
         }
 
     .engine
@@ -218,6 +262,12 @@
         .engine h3
         {
             font-size: 29px;
+<<<<<<< HEAD
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+=======
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
         }
 
     .faster
@@ -234,6 +284,13 @@
     }
         .faster h1
         {
+<<<<<<< HEAD
+            
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+=======
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
             margin-top: 30px;
         }
 
@@ -250,6 +307,13 @@
         padding: 10px;
         font-size: 25px;
     }
+        .performance h2
+        {   
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
        
     .tech
     {
@@ -268,6 +332,12 @@
         {
             margin-bottom: 35px;
             font-size: 30px;
+<<<<<<< HEAD
+            background: -webkit-linear-gradient(#eee, #af1e66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+=======
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
         }
 
     .memory
@@ -285,6 +355,12 @@
     }
         .memory h4
         {
+<<<<<<< HEAD
+            background: -webkit-linear-gradient(#c59ed1, #7c137c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+=======
+>>>>>>> 924634d73ab77e7f2cf74b1c341105a514392e99
             margin-top: 50px;
             font-size: 35px;
         }
