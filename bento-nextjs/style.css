@@ -12,7 +12,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(28, 1fr);
     height: 100vh;
-    padding: 15 px;
+    padding: 15px;
     background: linear-gradient(rgb(10, 10, 10), rgb(48, 48, 48));
     gap: 14px;
 }
@@ -120,15 +120,4 @@
         border: 2px solid rgb(63, 63, 63);
     }
 
-    .vacioIzquierda
-    {
-        grid-column: 1 / 2;
-        grid-row: 28 / 29;
-    }
-
     
-    .vacioDerecha
-    {
-        grid-column: 3 / 4;
-        grid-row: 27 / 29;
-    }
