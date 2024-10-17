@@ -1,0 +1,205 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.padre
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+    background-color: rgb(180, 180, 180);
+    gap: 20px;
+    padding: 20px;
+}
+
+    .newMusic
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        background: linear-gradient(white, pink);
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border-radius: 8px;
+    }
+        .newMusic > div 
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .newMusic > div img
+        {
+            width: 76%;
+        }
+
+    .getReady
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        background-color: rgb(233, 232, 232);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+        .getReady h2
+        {
+            width: 90%;
+            font-size: 50px;
+        }
+        .getReady p
+        {
+            width: 80%;
+            font-size: 30px;
+        }
+        .getReady img
+        {
+            margin-top: 50px;
+        }
+
+    .flores
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        background-color: rgb(241, 241, 226);
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+        flex-direction: column;
+    }
+        .flores .lineaArriba
+        {
+            display: flex;
+            justify-content: space-between;
+            text-align: start;
+            width: 100%;
+            padding: 0px 20px 0px 20px;
+        }
+            .flores .lineaArriba p
+            {
+                width: 40%;
+                font-size: 20px;
+                color: rgb(207, 166, 78);
+            }
+            .flores .lineaArriba i
+            {
+                font-size: 30px;
+                padding: 10px 30px 0px 0px;
+            }
+
+        .flores img
+        {
+            width: 80%;
+        }
+        
+
+    .chicaRosa
+    {
+        grid-column: 1 / 2;
+        grid-row: 3 / 5;
+        background-color: rgb(78, 172, 148);
+        border-radius: 8px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+        .chicaRosa img 
+        {
+            width: 100%;
+            border-radius: 8px;
+            height: 100%;   
+        }
+
+    .musai
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .musai img
+        {
+            width: 60%;
+        }
+
+    .cascos
+    {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: space-around;
+    }
+        .cascos .texto
+        {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 10px;
+        }
+            .cascos .texto p
+            {
+                font-size: 30px;
+            }
+            .cascos .texto .io p
+            {
+                font-size: 20px;
+            }
+        .cascos .foto 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    .reproductor
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 5;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+        .reproductor img
+        {
+            width: 70%;
+        }
+
+        .reproductor .texto
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+            .reproductor .texto img
+            {
+                width: 20%;
+            }
+            .reproductor .texto h2
+            {
+                width: 40%;
+                text-align: center;
+                padding-top: 20px;
+            }
