@@ -10,114 +10,432 @@
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(28, 1fr);
+    grid-template-rows: repeat(26, 1fr);
     height: 100vh;
-    padding: 15px;
+    padding: 20px;
     background: linear-gradient(rgb(10, 10, 10), rgb(48, 48, 48));
     gap: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    color: gray;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+h2
+{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
     .optimization
     {
         grid-column: 1 / 2;
-        grid-row: 1 / 17;
+        grid-row: 1 / 14;
         background-color: black;
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
     }
+        .optimization img
+        {
+            width: 100%;
+            height: 75%;
+        }
+        .optimization:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: linear-gradient(black, black, black, rgb(27, 27, 27) ) ;
+        }
 
     .streaming
     {
         grid-column: 2 / 3;
-        grid-row: 1 / 17;
+        grid-row: 1 / 14;
         background-color: black;
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
-
+        border: 1px solid rgb(63, 63, 63);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
     }
+        .streaming img
+        {
+            width: 100%;
+            height: 75%;
+        }
+        .streaming:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: linear-gradient(black, black, black, rgb(27, 27, 27) ) ;
+        }
 
     .react
     {
         grid-column: 3 / 4;
-        grid-row: 1 / 17;
+        grid-row: 1 / 14;
         background-color: black;
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
-
+        border: 1px solid rgb(63, 63, 63);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
     }
+        .react img
+        {
+            width: 100%;
+            height: 75%;
+        }
+        .react:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: linear-gradient(black, black, black, rgb(27, 27, 27) ) ;
+        }
 
     .fetching
     {
         grid-column: 1 / 2;
-        grid-row: 17 / 21;
+        grid-row: 14 / 18;
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
         background-color: rgb(0, 0, 0);
+        padding: 20px;
     }
+
+        .fetching:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
 
     .support
     {
         grid-column: 2 / 3;
-        grid-row: 17 / 21;
+        grid-row: 14 / 18;
         background-color: rgb(0, 0, 0);
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
     }
+        .support:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
 
     .rendering
     {
         grid-column: 3 / 4;
-        grid-row: 17 / 21;
+        grid-row: 14 / 18;
         background-color: rgb(0, 0, 0);
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
     }
+        .rendering:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
 
     .actions
     {
         grid-column: 1 / 2;
-        grid-row: 21 / 25;
+        grid-row: 18 / 22;
         background-color: rgb(0, 0, 0);
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
-
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
     }
+        .actions:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
 
     .route
     {
         grid-column: 2 / 3;
-        grid-row: 21 / 25;
+        grid-row: 18 / 22;
         background-color: rgb(0, 0, 0);
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
     }
+        .route:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
     
     .next14
     {
         grid-column: 3 / 4;
-        grid-row: 21 /27;
-        background-color: black;
+        grid-row: 18 /25;
+        background: linear-gradient(90deg, rgb(38,38,38),  rgb(25,25,25));
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+
     }
+        .next14 img
+        {
+            width: 100%;
+            height: 60%;
+        }
+        .next14 .textNext
+        {
+           width: 80%;
+        }
+            .next14 .textNext h3
+            {
+                font-size: 16px
+            }
+        .next14 .icono
+        {
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            width: 20%;         
+            padding-bottom: 20px;   
+            
+        }
+            .next14 .icono i
+            {
+                font-size: 20px;
+                color: white;
+            }
+
+            .next14 .icono > div
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(48,48,48);
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+            }
+
+            .next14:hover .icono > div     /*Paso el ratón por el div principal y actúa sobre el div del icono*/
+            {
+                background-color:rgb(75, 74, 74);
+            }
+
 
     .advanced
     {
         grid-column: 1 / 2;
-        grid-row: 25 / 28;
+        grid-row: 22 / 26;
         background-color: rgb(0, 0, 0);
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
     }
+        .advanced:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
 
 
     .middleware
     {
         grid-column: 2 / 3;
-        grid-row: 25 / 29;
+        grid-row: 22 / 27;
         background-color: rgb(0, 0, 0);
         border-radius: 9px;
-        border: 2px solid rgb(63, 63, 63);
+        border: 1px solid rgb(63, 63, 63);
+        padding: 20px;
+    }
+        .middleware:hover
+        {
+            border: 1px solid rgb(97, 96, 96);
+            background: rgb(17, 17, 17);
+        }
+
+@media (max-width: 1280px)
+{
+    h2 
+    {
+        font-size: 17px;
     }
 
-    
+    p
+    {
+        font-size: 14px;
+    }
+
+    .optimization .textOpt
+    {
+        padding-top: 20px;
+    }
+
+    .streaming .textStr
+    {
+        padding-top: 20px;
+    }
+
+    .react .textReact
+    {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 948px)
+{
+    p
+    {
+        font-size: 16px;
+    }
+
+    .padre
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        height: auto;
+    }
+    .optimization
+    {
+        grid-row: 1 / 10;
+        padding: 25px;
+    }
+    .streaming
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 10;
+        padding: 25px;
+    }
+    .react
+    {
+        grid-column: 1 / 2;
+        grid-row: 10 / 20;
+        padding: 25px;
+    }
+    .fetching
+    {
+        grid-row: 20 / 23;
+    }
+    .support
+    {
+        grid-column: 2 / 3 ;
+        grid-row: 10 / 13;
+    }
+    .rendering
+    {
+        grid-column: 1 / 2 ;
+        grid-row: 23 / 26;
+    }
+    .actions
+    {
+        grid-column: 2 / 3;
+        grid-row: 13 / 16;
+    }
+    .route
+    {
+        grid-column: 2 / 3 ;
+        grid-row: 16 / 19;
+    }
+    .next14
+    {
+        grid-column: 2 / 3 ;
+        grid-row: 22 / 27;
+    }
+        .next14 .textNext h3
+        {
+            font-size: 16px;
+        }
+    .advanced
+    {
+        grid-column: 2 / 3;
+        grid-row: 19 / 22;
+    }
+    .middleware
+    {
+        grid-column: 1 / 2 ;
+        grid-row: 26 / 29;
+    }
+
+}
+
+
+@media (max-width: 600px)
+{
+    .padre 
+    {
+        grid-template-columns: 1fr;
+    }
+    .optimization
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 10;
+    }
+    .streaming
+    {
+        grid-column: 1 / 2 ;
+        grid-row: 10 / 20;
+    }
+    .react
+    {
+        grid-column: 1 / 2 ;
+        grid-row: 20 / 30;
+    }
+    .fetching
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .support
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .rendering
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .actions
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .route
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .next14
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .advanced
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+    .middleware
+    {
+        grid-column: 1 / 2 ;
+        grid-row: auto;
+    }
+
+}
+
