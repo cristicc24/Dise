@@ -1,0 +1,64 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.padre 
+{
+    background-color: rgb(163, 103, 103);
+    height: 100vw;
+}
+
+    .header
+    {
+        height: 7%;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .parteBlanca
+    {
+        height: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+        .parteBlanca .logo img
+        {
+            width: 100%;
+            height: 200%;
+            z-index: 2;
+            padding: 7px;
+        }
+        .parteBlanca .navBlanco
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .parteBlanca .lenguaje 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+        .parteBlanca .lenguaje img
+        {
+            width: 40%;
+            height: 70%;
+            
+        }
+    .parteNegra
+    {
+        height: 50%;
+        background-color: black;
+    }
+        .parteNegra .navNegro
+        {
+            
+        }
+

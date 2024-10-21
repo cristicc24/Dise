@@ -1,0 +1,40 @@
+body
+{
+    height: 100vh;
+    
+}
+
+
+.cascos
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-around;
+    }
+        .cascos .texto
+        {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 10px;
+        }
+        
+        .foto 
+        
+        .cascos .imagen 
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .cascos .texto2
+        {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 10px;
+        }
+
