@@ -155,7 +155,7 @@ a
             height: 100%;
             display: flex;
             flex-direction: column;
-            width: 18%;
+            width: 20%;
             background-color:rgb(28,28,28);
             border-radius: 15px;
 
@@ -199,7 +199,7 @@ a
                     display: flex;
                     justify-items: center;
                     align-items: center;
-                    gap: 10px;
+                    gap: 8px;
                 }
                 .section .clasificacion .equipo .derecha
                 {
@@ -227,34 +227,44 @@ a
                 {
                     color: white;
                 }
-                .mostoles
+                .mostolesGrande
                 {
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     align-items: center;
-                    width: 100%;
-                    align-items: center;
-                    padding: 30px 5px;
-                    background-color: rgb(50, 50, 50);
-                    border-radius: 5px;
+                    padding-left: 10px;
+                    gap: 10px;
+                    border-left: 3px solid green;
+                    border-radius: 3px;
                 }
-                    .mostoles .escudoNombre
+                    .mostoles
                     {
                         display: flex;
-                        justify-content: start;
+                        justify-content: space-between;
                         align-items: center;
-                        font-size: 16px;
-                        gap: 5px;
-                        width: 80%;
-                    }
-                    .mostoles .puntos
-                    {
-                        width: 35%;
-                        display: flex;
-                        justify-content: space-around;
+                        width: 100%;
                         align-items: center;
-                        gap: 10px;
+                        padding: 30px 5px;
+                        background-color: rgb(50, 50, 50);
+                        border-radius: 5px;
                     }
+                        .mostoles .escudoNombre
+                        {
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            font-size: 16px;
+                            gap: 5px;
+                            width: 80%;
+                        }
+                        .mostoles .puntos
+                        {
+                            width: 35%;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            gap: 10px;
+                        }
                 .porcinos
                 {
                     display: flex;
