@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.padre{
+    width: 90%;  
+    padding: 40px 0;
+    margin: 0px auto;
+
+}
+
+    .header{
+        margin-bottom: 50px;
+    }
+        h1{
+            color: seagreen;
+            font-size: 54px;
+        }
+
+    .contenedores{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(1, auto 1fr auto);
+
+        gap: 20px;
+    }
+        .contenedor{
+            padding: 20px;
+            background-color: rgb(118, 155, 134);
+
+            display: grid;
+            grid-row: span 3;
+            grid-template-rows: subgrid;
+
+            grid-column: span 3;
+            grid-template-columns: subgrid;
+        }
+        .contenedor h4{
+            margin: 0px;
+            font-size: 35px;
+            grid-column: span 3;
+
+        }
+        .contenedor .texto{
+            font-size: 20px;
+            margin: 0px;
+            grid-column: span 3;
+        }
+            .texto p{
+                margin-bottom: 30px;
+            }
+        .contenedor .botones{
+            display: grid;
+            grid-column: span 3;
+            grid-template-columns: subgrid;
+        }
+        .botones p{
+            display: inline;
+            margin-left: 5px;
+            
+        }
+        .contenedor button{
+            text-align: left;
+            border: none;
+            padding: 5px;
+        }
+
+@media (max-width: 900px){
+    .contenedores{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
