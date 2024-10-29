@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    height: 100vh;
+    background-color: rgb(42, 22, 117);
+}
+
+    .hijo{
+        background-color: white;
+        height: 100vh;
+        margin: 0 11%;
+    }
+        .texto{
+            padding-top: 3%;
+            font-size: 30px;
+            height: 10vh;
+
+            display: flex;
+            justify-content: center;
+        }
+        .cartas{
+            height: 90vh;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+            .carta1{
+                background-color: bisque;
+
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+            .carta2{
+                background-color: rgb(255, 196, 245);
+
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            .carta3{
+                background-color: rgb(136, 114, 132);
+
+                grid-column: 3/4;
+                grid-row: 1/2;
+            }
+            .carta4{
+                background-color: rgb(136, 114, 132);
+
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            .carta5{
+                background-color: rgb(243, 239, 242);
+
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            .carta6{
+                background-color: rgb(189, 38, 161);
+
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }

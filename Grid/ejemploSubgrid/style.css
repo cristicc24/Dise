@@ -1,0 +1,23 @@
+.padre{
+    background-color: yellow;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.hijo{
+    background-color: red;
+    grid-column: 3/6;
+    grid-row: 2/5;
+
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+}
+
+.hijo2{
+    background-color: black;
+    grid-column: 2;
+    grid-row: 2;
+}
