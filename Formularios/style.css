@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .tabla{
     border: 1px solid black;
     width: 40%;
@@ -9,12 +13,12 @@
 .formulario{
     border: 1px solid black;
     background-color: rgb(183, 213, 196);
-
     width: 100%;
     
 }
     ul {
         list-style: none;
+        padding: 20px;
         
         display: flex;
         flex-direction: column;
