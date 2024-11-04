@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table class="tabla">
+        <tr>
+            <th><h2><u>Estilos CSS para formularios</u></h2></th>
+        </tr>
+        <tr>
+            <td>
+                <form action="" method="post" class="formulario">
+                <ul>
+                    <li>
+                        <label for="login">Login:</label>
+                        <input type="text" id="login" name="login" class="input"/> <br>
+                    </li>
+                    <li>
+                        <label for="password">Password: </label>
+                        <input type="password" id="password" name="password" class="input"/> <br>
+                    </li>
+                    <li>
+                        <label for="descripcion">Descripción:</label>
+                        <textarea id="descripcion" name="descripcion"></textarea> <br>
+                    </li>
+                    <li>
+                        <table class="tablaSecundaria">
+                            <td><label for="palabras">Palabras: </label></td> <br>
+                            <td>
+                                <label for="opt1">
+                                    <input type="checkbox" id="opt1" name="opt1" value="casa"/> Casa
+                                </label> <br>
+                                <label for="opt2">
+                                    <input type="checkbox" id="opt2" name="opt2" value="casa"/> Ordenador
+                                </label> <br>
+                                <label for="opt3">
+                                    <input type="checkbox" id="opt3" name="opt3" value="casa"/> Coche
+                                </label> <br>
+                                <label for="opt4">
+                                    <input type="checkbox" id="opt4" name="opt4" value="casa"/> Moto
+                                </label>
+                            </td>
+                        </table>
+                    </li>
+                    <li>
+                        <table class="tablaSecundaria">
+                            <td><label for="sexo">Sexo: </label></td> <br>
+                            <td>
+                                <label for="hombre">
+                                    <input type="radio" id="hombre" name="hombre" value="hombre"/> Hombre
+                                </label> <br>
+                                <label for="mujer">
+                                    <input type="radio" id="mujer" name="mujer" value="mujer"/> Mujer
+                                </label> <br>
+                            </td>
+                        </table>
+                    </li>
+                
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Vaciar</button>
+                    
+                </ul>
+              </form>
+            </td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
