@@ -25,44 +25,48 @@
                     </li>
                     <li>
                         <label for="descripcion">Descripción:</label>
-                        <textarea id="descripcion" name="descripcion"></textarea>
+                        <textarea id="descripcion" name="descripcion" class="input"></textarea>
+                    </li>
+                    <li class="checkboxLI">
+                        <p>Posesiones:</p>
+                        <div class="checkboxDiv">
+                            <div>
+                                <input type="checkbox" id="opt1" name="opt1"/> 
+                                <label for="opt1">Casa</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="opt2" name="opt2"/> 
+                                <label for="opt2">Ordenador</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="opt3" name="opt3"/> 
+                                <label for="opt3">Coche</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="opt4" name="opt4"/> 
+                                <label for="opt4">Moto</label>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <table class="tablaSecundaria">
-                            <td><label for="palabras">Palabras: </label></td>
-                            <td>
-                                <label for="opt1">
-                                    <input type="checkbox" id="opt1" name="opt1" value="casa"/> Casa
-                                </label> <br>
-                                <label for="opt2">
-                                    <input type="checkbox" id="opt2" name="opt2" value="casa"/> Ordenador
-                                </label> <br>
-                                <label for="opt3">
-                                    <input type="checkbox" id="opt3" name="opt3" value="casa"/> Coche
-                                </label> <br>
-                                <label for="opt4">
-                                    <input type="checkbox" id="opt4" name="opt4" value="casa"/> Moto
-                                </label>
-                            </td>
-                        </table>
+                        <li class="checkboxLI">
+                            <p>Sexo:</p>
+                            <div class="checkboxDiv">
+                                <div>
+                                    <input type="radio" id="hombre" name="hombre"/> 
+                                    <label for="opt1">Hombre</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="mujer" name="mujer"/>
+                                    <label for="opt2">Mujer</label>
+                                </div>
+                            </div>
+                        </li>                            
                     </li>
-                    <li>
-                        <table class="tablaSecundaria">
-                            <td><label for="sexo">Sexo: </label></td>
-                            <td>
-                                <label for="hombre">
-                                    <input type="radio" id="hombre" name="hombre" value="hombre"/> Hombre
-                                </label> <br>
-                                <label for="mujer">
-                                    <input type="radio" id="mujer" name="mujer" value="mujer"/> Mujer
-                                </label> <br>
-                            </td>
-                        </table>
+                    <li class="botones">
+                        <input type="submit">
+                        <input type="reset">
                     </li>
-                
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Vaciar</button>
-                    
                 </ul>
               </form>
             </td>
