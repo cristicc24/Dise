@@ -1,12 +1,14 @@
 
-
-.formulario ul{
+div{
     border: 1px solid black;
 
+    
+    gap: 15px;
+}
+ul{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 15px;
 }
 
 li{
