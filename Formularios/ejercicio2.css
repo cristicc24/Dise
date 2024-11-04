@@ -1,29 +1,38 @@
 
 div{
     border: 1px solid black;
-
-    
-    gap: 15px;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
 }
 
-li{
+.menu{
     list-style: none;
+}
+
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+
+.menu li{
     border: 1px solid black;
     margin: 10px;
     padding: 5px;
-    height: fit-content;
+
+    position: relative;
+    display: inline-block;
 }
 
-.hover{
-    display: flex;
-    flex-direction: column;
+.menu li:hover ul{
+    display: block;
+
 }
 
-.hover:hover{
-    background-color: wheat;
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+
 }
+
