@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    height: 100vh;
+    width: 100%;
+}
+    .header{
+        width: 100%;
+        background-color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .logo img{
+            height: 40%;
+            width: 40%;
+        }
+        .nav{
+            list-style: none;
+            gap: 15px;
+
+            display: flex;
+        }
+
+            .ruta{
+                position: absolute;
+                top: 12%;
+                height: 500px;
+                display: flex;
+            }
+            .menuRuta{
+                list-style: none;
+                position: relative;
+               
+                display: none;
+                left: -130%;
+                padding: 15px;
+
+                
+            }
+            .navRuta:hover .ruta{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+            }
+
+            .navRuta:hover .ruta .menuRuta{
+                background-color: rgb(255, 255, 255);
+                display: block;
+            }
+                
+
+         
