@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/85f063efb0.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <title>Contacto - Toledo 3 Culturas</title>
     </head>
@@ -16,16 +17,17 @@
                     <ul class="nav">
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="#">Quienes somos</a></li>
-                        <li class="navRuta"><a href="#">Nuestras rutas por Toledo</a>
+                        <li class="navRuta"><a href="#">Nuestras rutas por Toledo <i class="fa-solid fa-angle-down"></i>
+                        </a>
                             <ul class="ruta">
                                 <ul class="menuRuta">
                                     <li><b>Vida en la judería de Toledo</b></li>
-                                    <li><b>RUTA NOCHE TOLEDANA</b></li>
+                                    <li><b>Ruta Pulsera Turístia de Toledo</b></li>
                                     <li><b>Plazas desconocidas de Toledo</b></li>
                                     <li><b>Ruta Toledo 3 Culturas</b></li>
 
                                     <li><b>Los mejores miradores de Toledo</b></li>
-                                    <li><b>Ruta Pulsera Turístia de Toledo</b></li>
+                                    <li><b>RUTA NOCHE TOLEDANA</b></li>
                                     <li><b>Ruta mujeres ilustres toledanas</b></li>
                                     <li><b>Toledo ciudad de la magia</b></li>
 
@@ -41,17 +43,21 @@
                             </ul>
                         </li>
 
-                        <li><a href="#">Rutas privadas</a></li>
+                        <li><a href="#">Rutas privadas <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#">Regala una ruta</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                         <li><a href="#">Blog</a></li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
                     </ul>
                 </div>
+                
             </div>
+
             <div class="carrousel">
                 <img src="fotos/toledo2.webp" alt="">
             </div>
-            <main>
+
+            <main class="paginaContacto">
                 <section>
                     <div class="parrafos">
                         <p>Rellene este formulario de contacto para reservar su ruta. Si realiza su reserva para una ruta por Toledo a través de esta Web, por e-mail, recibirá confirmación de la reserva en unas horas. Llámenos si en el plazo de uno o dos días no has recibido ninguna respuesta. En todo caso facilite un número de teléfono móvil por si tenemos que contactar con usted.</p>
@@ -59,8 +65,8 @@
                         <p>Puede utilizar este formulario para enviarnos sus sugerencias, quejas y reclamaciones e intentaremos contactar para resolver sus dudas lo antes posible.</p>
                     </div>
                     <div>
-                        <p>Formulario</p>
                         <form action="">
+                            <p class="titulo">Formulario de Contacto</p>
                             <input type="text" placeholder="Nombre*">
                             <input type="text" placeholder="Dirección de correo-e*">
                             <input type="text" placeholder="Nºteléfono">
@@ -71,13 +77,23 @@
                             <div class="containerbotonEnviar"><input type="submit" value="Enviar"></div>
                         </form>
                     </div>
+                    <div class="parrafos">
+                        <p>Si ya ha elegido la ruta a realizar, envíenos una lista con los monumentos que desea visitar o de la ruta que le gustaría realizar y le enviaremos un presupuesto a medida. No sólo realizamos las rutas de nuestro programa, también planificamos rutas a medida de las necesidades del cliente o grupo (consultar rutas para grupos).</p>
+                    </div>
                 </section>
                 <aside>
                     <p>Busca tu ruta</p>
                     <form action="">
-                        <input type="search">
-                        <input type="submit" value="Buscar">
+                        <input type="search" class="cajitaSearch">
+                        <input type="submit" value="Buscar" class="buscar">
                     </form>
+                    <div class="contacta">
+                        <p>Contacta con nosotros</p>
+                        <div class="numero">
+                            <a href="#">603 420 820</a>
+                            <a href="#">info@toledo3culturas.com</a>
+                        </div>
+                    </div>
                 </aside>
                 
             </main>
