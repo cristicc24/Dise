@@ -42,6 +42,9 @@
                 width: 100%;
             }
 
+        .containerNavResponsive{
+            display: none;
+        }
         .containerNav{
             width: 100%;
             max-width: 1080px;
@@ -113,10 +116,11 @@
         max-width: 1080px;
         width: 100%;
         margin-top: 60px;
-        height: 1000px;
+        padding: 0px 70px;
 
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
         section{
             width: 75%;
@@ -193,7 +197,6 @@
                 margin-top: 5px;
                 margin-bottom: 20px;
                 
-
                 display: flex;
             }
                 aside form input{
@@ -201,7 +204,6 @@
                     width: 70%;
                     border: 1px solid rgb(210, 210, 210);
                 }
-                
                     aside .buscar{
                         border-left: 0;
                         color: rgb(102, 102, 102);
@@ -215,6 +217,7 @@
 
                     display: flex;
                     justify-content: space-between;
+                    flex-wrap: wrap;
                 }
                     .numero a{
                         text-decoration: none;
@@ -223,7 +226,7 @@
 
          
     .mainIndex{
-        padding: 0px 80px;
+        padding: 0px 70px;
         max-width: 1180px;
         width: 100%;
         margin: 60px auto;
@@ -252,7 +255,7 @@
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: repeat(6, 1fr);
-                gap:  10px 60px;
+                gap: 10px 40px;
             }
                 .tarjetaSuperior{   
                     grid-row: 1/4;
@@ -268,9 +271,8 @@
                         grid-row: 3/4;
                         margin-top: 7px;
 
-
                         display: grid;
-                        grid-template-rows: repeat(3, 1fr);
+                        grid-template-rows: repeat(3, 40px);
                     }
                 
                 .tarjetaInferior{
@@ -286,8 +288,8 @@
                         grid-row: 3/4;
                         margin-top: 7px;
 
-                        display: grid;
-                        grid-template-rows: repeat(3, 1fr);
+                        display: grid; 
+                        grid-template-rows: repeat(3, 40px);
                     }
                 
                 .tarjeta1, .tarjeta5{
@@ -346,11 +348,12 @@
         padding: 0px 80px; 
         max-width: 1180px;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .footerPrincipal a{
         text-decoration: none ;
         color: white;
-        display: block;
     }
     .footerPrincipal h4{
         font-size: 19px;
@@ -358,23 +361,25 @@
         margin-bottom: 10px;
     }
         .interes{
-            width: 25%;
+            width: 21%;
             padding: 60px 0px;
-            margin-right: 40px
+            margin-right: 30px
         }
             .interes .info{
                 margin-bottom: 50px;
             }
             .interes .info a{
                 margin: 10px 0px;
+                display: block;
+
             }
             .interes img{
                 width: 100%;
             }
         .rutaReserva{
-            width: 25%;
+            width: 21%;
             padding: 60px 0px;
-            margin-right: 40px;
+            margin-right: 30px;
         }
             .rutaReserva form input{
                 padding: 10px;
@@ -389,7 +394,7 @@
                 border-left: 0;
                 color: rgb(102, 102, 102);
                 background-color:rgb(226, 226, 226);
-                width: 30%;
+                width: 35%;
                 border-top-right-radius: 3px;
                 border-bottom-right-radius: 3px;
             }
@@ -400,10 +405,13 @@
                 margin: 10px 0px;
             }
         .otrosEnlaces{
-            width: 25%;
+            width: 21%;
             padding: 60px 0px;
-            margin-right: 40px;
+            margin-right: 30px;
         }
+            .otrosEnlaces ul{
+                list-style-position: inside;
+            }
             .otrosEnlaces li::marker{   /*color puntos de la lista*/
                 color: #aa8447;
             }
@@ -415,19 +423,235 @@
                 margin-top: 30px;
             }
         .turismo{
-            width: 25%;
+            width: 21%;
             padding: 60px 0px;
-            margin-right: 40px;
+            margin-right: 30px;
         }
             .turismo img{
                 width: 100%;
             }
 
-            
+
+@media (max-width: 979px){
+    .nav{
+        font-size: 12px;
+    }
+
+    /*main index*/
+
+    .tarjetas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0px 30px;
+    }
+        .tarjeta1{
+            grid-column: 1 / 2; 
+            grid-row: 1/2;
+        }
+        .tarjeta2{
+            grid-column: 2 / 3;
+            grid-row: 1/2;
+        }
+        .tarjeta3{
+            grid-column: 1 / 2; 
+            grid-row: 2/3;
+        }
+        .tarjeta4{
+            grid-column: 2 / 3;
+            grid-row: 2/3;
+        }
+        .tarjeta5{
+            grid-column: 1 / 2; 
+            grid-row: 3/4;
+        }
+        .tarjeta6{
+            grid-column: 2 / 3;
+            grid-row: 3/4;
+        }
+        .tarjeta7{
+            grid-column: 1 / 2; 
+            grid-row: 4/5;
+        }
+        .tarjeta8{
+            grid-column: 2 / 3;
+            grid-row: 4/5;
+        }
+
+    /*Main contacto*/
+   
+    section form > input{
+        width: 48%;
+    }
+
+    aside .buscar{
+        width: 35%;
+    }
+
+    /*footer*/
+        .interes{
+            width: 45%;
+        }
+            .interes img{
+                width: 50%;
+            }
+        .rutaReserva{
+            width: 45%;
+        }
+            .rutaReserva form{
+                width: 70%;
+            }
+        .otrosEnlaces{
+            width: 45%;
+        }
+            .otrosEnlaces img{
+                width: 50%;
+            }
+        .turismo{
+            width: 45%;
+        }
+            .turismo img{
+                width: 50%;
+            }
+}
+
+@media (max-width: 768px){
+    .containerNavResponsive{
+        display: block;
+        width: 80%;
+        background-color: rgb(242,242,242);
+        margin-bottom: 5px;
+    }
+        .navResponsive{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .navResponsive p{
+            font-size: 13px;
+            color: rgb(198,8,21);
+            font-weight: 600;
+        }
+        .navResponsive i{
+            color: #aa8447;
+        }
+
+    .containerNav{
+        display: none;
+    }
+
+    aside .buscar{
+        width: 50%;
+    }
+
+    .footerPrincipal{
+        padding: 0px 40px; 
+    }
+    .interes{
+        padding-bottom: 10px;
+        width: 40%;
+    }
+    .rutaReserva{
+        padding-bottom: 10px;
+        width: 40%;
+    }
+    .otrosEnlaces{
+        padding-bottom: 10px;
+        width: 40%;
+    }
+    .turismo{
+        width: 40%;
+    }
+}
+
+@media (max-width: 640px){
+    section{
+        width: 100%;
+    }
+        section form > input{
+            width: 100%;
+        }
+
+        .containerbotonEnviar
+        {
+            font-size: 10px;
+        }
+
+    aside{
+        width: 100%;
+    }
+    .contacta .numero{
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+
+    aside .buscar{
+        width: 30%;
+    }
+}
 
 
 
+@media(max-width:600px){
+    .containerNavResponsive{
+        display: block;
+        width: 95%;
+    }
 
-            
-            
 
+    .tarjetas{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(8, 1fr);
+    }
+        .tarjeta1{
+            grid-column: 1/-1;
+            grid-row: 1/2;
+        }
+        .tarjeta2{
+            grid-column: 1/-1;
+            grid-row: 2 / 3;
+        }
+        .tarjeta3{
+            grid-column: 1/-1;
+            grid-row: 3/4;
+        }
+        .tarjeta4{
+            grid-column: 1/-1;
+            grid-row: 4/5;
+        }
+        .tarjeta5{
+            grid-column: 1/-1;
+            grid-row: 5/6;
+        }
+        .tarjeta6{
+            grid-column: 1/-1;
+            grid-row: 6/7;
+        }
+        .tarjeta7{
+            grid-column: 1/-1;
+            grid-row: 7/8;
+        }
+        .tarjeta8{
+            grid-column: 1/-1;
+            grid-row: 8/9;
+        }
+
+
+    .footerPrincipal{
+        padding: 0px 40px; 
+    }
+    .interes{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .rutaReserva{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .otrosEnlaces{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .turismo{
+        width: 100%;
+    }
+}
