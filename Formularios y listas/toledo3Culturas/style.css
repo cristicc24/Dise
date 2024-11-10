@@ -148,7 +148,7 @@
                     color: #aa8447;
                 }
             section form > input{
-                width: 49%;
+                width: 48%;
                 padding: 15px;
                 background-color: rgb(231, 231, 231);
                 border: 0;
@@ -478,10 +478,6 @@
         }
 
     /*Main contacto*/
-   
-    section form > input{
-        width: 48%;
-    }
 
     aside .buscar{
         width: 35%;
@@ -571,9 +567,9 @@
             width: 100%;
         }
 
-        .containerbotonEnviar
+        .containerbotonEnviar input
         {
-            font-size: 10px;
+            font-size: 15px;
         }
 
     aside{
@@ -588,8 +584,6 @@
         width: 30%;
     }
 }
-
-
 
 @media(max-width:600px){
     .containerNavResponsive{
