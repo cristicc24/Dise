@@ -1,0 +1,137 @@
+@font-face{
+    font-family:inder;
+    src: url('http://www.edutopia.es/mooc/css/inder.ttf') format('truetype');
+}
+@font-face{
+    font-family:titulares;
+    src: url('http://www.edutopia.es/mooc/css/alegreya_bold.ttf') format('truetype');
+}
+@font-face{
+    font-family:titulares_light;
+    src: url('http://www.edutopia.es/mooc/css/alegreya_light.ttf') format('truetype');
+}
+header{
+ position:relative;
+ width:1000px;
+ margin:0 auto;
+ font-family:titulares_light;
+ font-size:24px;
+ color:white;
+}
+
+img{
+    width: 10%;
+}
+
+body{
+    background:url("http://www.edutopia.es/mooc/img_html/fondol3.jpg");
+    background-repeat:no-repeat;
+    background-color:#F9F1CF;
+}
+section{
+ font-family:inder;
+ font-size:12px;
+ display:inline-block;
+ margin-bottom:45px;
+ position:relative;
+}
+
+a{
+ text-decoration:none;
+ color:orange;
+ font-size:25px;
+}
+nav li{
+ list-style:none;
+ display:inline-block;
+ padding:4px 70px;
+ text-align:center;
+}
+ul{
+ padding:0;
+}
+a:hover{
+ color:white;
+}
+nav{
+ color:silver;
+ font-size:25px;
+ font-family:titulares;
+ width:800px;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:50px;
+}
+
+nav:hover{
+ cursor:default;
+}
+#contenido{
+ width:980px;
+ margin:0 auto;
+}
+.cuadros{
+    
+width:240px;
+border:1px lightgray solid;
+border-radius:3px;
+background-color:rgb(192, 178, 178);
+text-align:center;
+padding:5px 5px 22px 5px;
+box-shadow:0px 0px 4px gray;
+float:left;
+}		
+#cuadro1 img{
+    width: 20%;
+    transform: rotate(-2deg);
+}
+
+#cuadro2 img{
+    width: 20%;
+    transform: rotate(2deg);
+}
+#cuadro2{
+ margin:0 112px 0 112px;
+}
+
+#cuadro3 img{
+    width: 20%;
+    transform: rotate(-1deg);
+}
+
+footer{
+ width:1000px;
+ margin:0 auto;
+ position:relative;
+ padding-top:12px;
+ font-family:titulares_light;
+ font-size:13px;
+ color:white;
+}
+#titulo{
+ font-family:titulares_light;
+ font-size:18px;
+ margin-top:65px;
+}
+#franja{
+width:100%;
+position:absolute;
+top:0;
+left:0;
+height:60px;
+background-color:#313B44;
+border-bottom:6px black solid;
+}
+#franja_final{
+width:100%;
+position:absolute;
+left:0;
+height:60px;
+background-color:#313B44;
+border-top:6px black solid;
+}
+#chincheta{
+ position:absolute;
+ left:227px;
+ top:-49px;
+}

@@ -1,0 +1,6 @@
+
+    .transform img{
+        width: 5%;
+        transform:translate(650%,0px) rotate(30deg) scale(0.5, 0.5) skew(10deg, 25deg) ;
+    }
+    
