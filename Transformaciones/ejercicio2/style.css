@@ -47,7 +47,7 @@
             transform-origin: 20% 80%;
             opacity: 1;
             transform: translate(5%,0px) rotate(-2deg) scale(0.80, 0.75) skew(-5deg);
-            transition: opacity 3s linear 0.5s ;
+            transition: width 2s linear, 0.5s;
         }
        
         .foto1 img:hover{
@@ -61,13 +61,11 @@
         .foto3 img:hover{
             position:relative;
             rotate: 99999deg;
-            opacity: 0;
-            top: 20%;
-            left: 20%;
+            left: 25%;
         }
         .foto4 img:hover{
             position:relative;
-            top:40px;
+            object-fit: cover;
         }
 
 

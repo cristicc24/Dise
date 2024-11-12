@@ -1,6 +1,110 @@
-
+/* 
     .transform img{
         width: 5%;
         transform:translate(650%,0px) rotate(30deg) scale(0.5, 0.5) skew(10deg, 25deg) ;
+    } */
+
+    article img{
+        width: 30%;
     }
+
+    /* @keyframes animacion {
+        from{
+            transform: rotate(45deg);
+        }
+        15%{
+            transform: rotate(60deg);
+        }
+        30%{
+            transform: rotate(75deg);
+        }
+        45%{
+            transform: rotate(90deg);
+        }
+        60%{
+            transform: rotate(120deg);
+        }
+        70%{
+            transform: rotate(210deg);
+        }
+        75%{
+            transform: rotate(240deg);
+        }
+        85%{
+            transform: rotate(280deg);
+        }
+        90%{
+            transform: rotate(310deg);
+        }
+        95%{
+            transform: rotate(330deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    } */
+
+    article div{
+        width: 200px;
+        margin: auto;
+    }
+    /* .logo{
+        display: none;
+    }
+    article:hover .logo{
+        display: block;
+        animation: animacion 1s infinite ease-in;
+    } */
+
+
+    @keyframes traslado {
+        from{
+            transform: translate(20%);
+        }
+        15%{
+            transform: translate(35%);
+        }
+        30%{
+            transform: translate(60%);
+        }
+        50%{
+            transform: translate(70%);
+        }
+        70%{
+            transform: translate(90%);
+        }
+        100%{
+            transform: translate(130%);
+        }
+        130%{
+            transform: translate(160%);
+        }
+        160%{
+            transform: translate(190%);
+        }
+        190%{
+            transform: translate(220%);
+        }
+        210%{
+            transform: translate(250%);
+        }
+        240%{
+            transform: translate(280%);
+        }
+        to{
+            transform: translate(400%);
+        }
+        
+    }
+
+    .logo2{
+        display: none;
+    }
+    article:hover .logo2{
+        display: block;
+        animation: traslado 2s both ease-out;
+    }
+
+    
+
     
