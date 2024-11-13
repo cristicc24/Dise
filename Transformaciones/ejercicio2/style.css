@@ -38,34 +38,41 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 1.5s linear;
     }
         section img{
-            height: 90%;
-            width: 90%;
+            position: relative;
+            height: 100%;
+            width: 100%;
             top: 0;
             left: 0;
-            transform-origin: 20% 80%;
+            /* transform-origin: 20% 80%; */
             opacity: 1;
-            transform: translate(5%,0px) rotate(-2deg) scale(0.80, 0.75) skew(-5deg);
-            transition: width 2s linear, 0.5s;
+            /* transform: translate(5%,0px) rotate(-2deg)  skew(-5deg); */
+            background-color: aqua;
+            transition: background 2s linear, width 1.5s linear, border 2s ease-in-out, opacity 1.5s linear, rotate 1s linear;
         }
-       
+        
         .foto1 img:hover{
-            position:relative;
-            top:40px;
+            width: 60%;
+            background-color: yellow;
         }
+            
         .foto2 img:hover{
-            position:relative;
             opacity: 0;
         }
+      
         .foto3 img:hover{
-            position:relative;
             rotate: 99999deg;
-            left: 25%;
+        }
+        .foto4 img{
+            object-fit: cover;
+        }
+        .foto4 {
+            overflow: hidden;
         }
         .foto4 img:hover{
-            position:relative;
-            object-fit: cover;
+            transform: scale(1.1);
         }
 
 

@@ -10,8 +10,9 @@
     color: white;
     width: 30px;
     height: 30px;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 30px;
     text-decoration: none;
     top: 0;
@@ -20,10 +21,10 @@
     font-weight: bold;
     border-radius: 50%;
     padding: 2%;
-   
+    z-index: 1;
 }
 
-.menu{
+.padre{
     position: absolute;
     top: 0;
     left: 0;
@@ -35,11 +36,14 @@
     align-items: center;
     font-size: 2rem;
     text-align: center;
-    clip-path: circle(0 at top right);
-    transition: clip-path 1s;
+    clip-path: circle(0% at top right);
+    transition: clip-path 2s;
 }
 
-.menu:target{
-    clip-path: circle(150% at bottom right);
-    transition: clip-path 1s;
+#menu:target{
+    clip-path: circle(100% at center);
+}
+
+#menu:target~.botonRedondo{  
+    display: none;
 }
