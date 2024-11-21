@@ -5,7 +5,7 @@ listaElementos.forEach(listaElemento => {
       
       listaElemento.classList.toggle('arrow');
 
-      let height = 0;
+      let height = 0;;
       let menu = listaElemento.nextElementSibling;
 
       if(menu.clientHeight == "0"){
