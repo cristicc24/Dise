@@ -121,7 +121,7 @@
             }
 
     .progress{
-        height: 10px;
+        height: 5px;
         width: 100%;
         background-color: #aa8447;
         position: sticky;
@@ -736,6 +736,6 @@
 
 @keyframes letras {
     to{
-        font-size: 11px;
+        font-size: 13px;
     }
 }
