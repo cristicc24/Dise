@@ -44,13 +44,14 @@
                 width: 40%;
             }
             .logo img{
+                position: relative;
                 width: 100%;
                 animation: logoScroll linear both;
                 animation-timeline: scroll(root);
             }
 
             .logo img:hover{
-                animation: logoMovimiento 0.7s linear;
+                animation: logoMovimiento 1s linear both;
             }
 
         .containerNavResponsive{
@@ -122,7 +123,7 @@
             }
 
     .progress{
-        height: 5px;
+        height: 10px;
         width: 100%;
         background-color: #aa8447;
         position: sticky;
@@ -705,11 +706,8 @@
 }
 
 @keyframes logoMovimiento {
-    0%{
-        scale: 1 ;
-    }
     100%{
-        scale: 1.2;
+        width: 150%;
     }
 }
 
@@ -737,6 +735,6 @@
 
 @keyframes letras {
     to{
-        font-size: 13px;
+        font-size: 11px;
     }
 }

@@ -50,12 +50,15 @@
 }
 
 .modal:target .modalDiv{
-    animation: show 1s;
+    animation: show 2s;
 }
 
 @keyframes show {
     0%{
-        transform: translateY(-150vh);
+        transform: translate(100vh, -100vh);
+    }
+    50%{
+        transform: translate(-100vh, 100vh);
     }
 }
 
@@ -65,7 +68,7 @@
 }
 
 .modal:target .image{
-    animation: scale .5s 1.5s backwards;
+    animation: scale .5s 2s backwards;
 }
 
 @keyframes scale {
@@ -84,4 +87,3 @@
     border-radius: 1em;
     border: 1px solid rgb(220, 220, 0);
 }
-
