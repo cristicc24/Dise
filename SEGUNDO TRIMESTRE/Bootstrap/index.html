@@ -88,6 +88,8 @@
         </div>
     </div> -->
 
+    <!-- PAGINACIÓN SIN JS -->
+     
     <!-- <div class="container mt-4">
         <ul class="pagination justify-content-center">
           <li class="page-item disabled"><a class="page-link" href="#"><i class="bi bi-house"></i></a></li>
@@ -97,9 +99,9 @@
           <li class="page-item"><a class="page-link" href="#">..</a></li>
           <li class="page-item"><a class="page-link" href="#">10</a></li>
         </ul>
-    </div>
+    </div> -->
 
-
+    <!-- LISTAS -->
     <ul class="container list-group list-group-flush">
         <li class="list-group-item">1
             <ul class="list-group">
@@ -114,7 +116,8 @@
         <li class="list-group-item">3
             <ul class="list-group">
                 <li class="list-group-item">3.1
-                    <ul class="list-group">
+                    <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"></button>
+                    <ul class=" dropdown-menu">
                         <li class="list-group-item">3.1.1
                             <ul class="list-group">
                                 <li class="list-group-item">3.1.1.1
@@ -130,9 +133,10 @@
                 </li>
             </ul>
         </li>
-    </ul> -->
+    </ul>
 
-    <!-- <div class="container my-3">
+    <!-- CARDS -->
+    <div class="container my-3">
         <div class="row">
             <div class="col">
                 <div class="card">
@@ -200,9 +204,9 @@
                 </div>
             </div>
         </div>              
-    </div> -->
+    </div>
 
-    
+    <!-- COLLAPSE -->
     <div class="container my-3">
         <div class="card text-center">
             <h1 class="card-title">Flores</h1>
@@ -216,10 +220,113 @@
         </div>
     </div>
 
+    <!-- NAV -->
+    <div class="container my-3">
+        <ul class="nav">
+            <li class="nav-item"><a href="" class="nav-link">Hola</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holita</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holi</a></li>
+        </ul>
+    </div>
 
+    <div class="container my-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="" class="nav-link">Hola</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Holita</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holi</a></li>
+        </ul>
+    </div>
+
+    <div class="container my-3">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="" class="nav-link">Hola</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holita</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holi</a></li>
+        </ul>
+    </div>
+
+    <div class="container my-3">
+        <ul class="nav nav-tabs justify-content-center">
+            <li class="nav-item"><a href="" class="nav-link">Hola</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holita</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holi</a></li>
+        </ul>
+    </div>
+
+    <div class="container my-3">
+        <ul class="nav nav-tabs nav-justified nav-pills">
+            <li class="nav-item"><a href="" class="nav-link">Hola</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Holita</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holi</a></li>
+        </ul>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav class="container-fluid navbar navbar-expand-sm bg-warning justify-content-center fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="" class="nav-link">Hola</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holita</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Holi</a></li>
+        </ul>
+    </nav>
+    <p class="mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut error esse quisquam eligendi, vero voluptatem cupiditate magni voluptatibus, fugiat illo laudantium atque. Obcaecati ab laborum saepe soluta! Quis sapiente accusamus vero consequatur facere adipisci nihil voluptatibus nemo, corrupti, consectetur quas ratione molestias voluptate modi officia dolores magni ipsam illo consequuntur quae illum blanditiis? Minima quod a esse. Iusto porro officiis consequuntur dolores consequatur recusandae earum aut cum, dicta reiciendis commodi, quis aliquam quos iure corporis! Officia dolorem quam ex. Dolorem deleniti minus maxime adipisci, quod illo veritatis optio voluptate voluptatem magni delectus! Vitae delectus asperiores quibusdam eligendi nobis recusandae aut. </p>
+
+
+    <!-- CARRUSEL -->
+
+    <div class="carousel slide" id="intro" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#intro" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#intro" data-bs-slide-to="1"></button>
+            <button data-bs-target="#intro" data-bs-slide-to="2"></button>
+            <button data-bs-target="#intro" data-bs-slide-to="3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <div class="carousel-caption">
+                    <h1>Naturaleza</h1>
+                    <p>Bella</p>
+                </div>
+                <img src="imagen.jpg" class="d-block w-100">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption">
+                    <h1>Naturaleza</h1>
+                    <p>Bella</p>
+                </div>
+                <img src="wallpaperflare.com_wallpaper.jpg" class="d-block w-100">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption">
+                    <h1>Naturaleza</h1>
+                    <p>Bella</p>
+                </div>
+                <img src="flores-bonitas.jpg" class="d-block w-100">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption">
+                    <h1>Naturaleza</h1>
+                    <p>Bella</p>
+                </div>
+                <img src="IMG_20180624_060137.jpg" class="d-block w-100">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" data-bs-target="#intro" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" data-bs-target="#intro" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
